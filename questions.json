@@ -1,0 +1,93 @@
+[
+    {
+        "text": "Which two historic schools merged to form the current Marconi-Mangano institute? 🍝 ",
+        "icon": "🏫",
+        "options": [
+            { "text": "Marconi and Archimede", "correct": false },
+            { "text": "Marconi and Mangano", "correct": true },
+            { "text": "Ferraris and Mangano", "correct": false },
+            { "text": "Pacinotti and Marconi", "correct": false }
+        ]
+    },
+    {
+        "text": "Where is the main Marconi campus located? 🍦 ",
+        "icon": "📍",
+        "options": [
+            { "text": "Via Lattea", "correct": false },
+            { "text": "Via Vescovo Maurizio", "correct": true },
+            { "text": "Via Giovanni 2041th", "correct": false },
+            { "text": "Piazza Poco Duomo", "correct": false }
+        ]
+    },
+    {
+        "text": "Who is the sponsor of this program with which we communicate?",
+        "icon": "🌍",
+        "options": [
+            { "text": "Leonardo da Vinci Grants", "correct": false },
+            { "text": "Erasmus+", "correct": true },
+            { "text": "Fulbright Scholars", "correct": false },
+            { "text": "Facebook", "correct": false }
+        ]
+    },
+
+    {
+        "text": "What is the capital city of Italy? 😄 \"If you don't know the pasta army will come get you\"",
+        "icon": "🇮🇹",
+        "options": [
+            { "text": "Milan", "correct": false },
+            { "text": "Rome", "correct": true },
+            { "text": "Naples", "correct": false },
+            { "text": "Florence", "correct": false }
+        ]
+    },
+    {
+        "text": "What is the highest volcano in Europe?  \"If you answer Vesuvio I'll send you a Napoletano at home\"",
+        "icon": "🏔️",
+        "options": [
+            { "text": "Alicudi", "correct": false },
+            { "text": "Etna", "correct": true },
+            { "text": "Stromboli", "correct": false },
+            { "text": "Vesuvio", "correct": false }
+        ]
+    },
+    {
+        "text": "Which iconic Italian city is famous for its canals and gondolas? 🛶 \"Imagine commuting by boat to school—only in Italy!\"",
+        "icon": "🌊",
+        "options": [
+            { "text": "Venice", "correct": true },
+            { "text": "Turin", "correct": false },
+            { "text": "Bologna", "correct": false },
+            { "text": "Genova", "correct": false }
+        ]
+    },
+    {
+        "text": "What is the oldest university in Italy, founded in 1088? 📚",
+        "icon": "🎓",
+        "options": [
+            { "text": "University of Padua", "correct": false },
+            { "text": "University of Bologna", "correct": true },
+            { "text": "Sapienza University", "correct": false },
+            { "text": "University of Pisa", "correct": false }
+        ]
+    },
+    {
+        "text": "What is the capital city of Sicily? 🐟 \"Aswer Catania if you love us\"",
+        "icon": "🏙️",
+        "options": [
+            { "text": "Palermo", "correct": true },
+            { "text": "Catania", "correct": false },
+            { "text": "Messina", "correct": false },
+            { "text": "Siracusa", "correct": false }
+        ]
+    },
+    {
+        "text": "What's the worst thing that can happen in the morning for a \"Catanese\"🌋 --They are all correct",
+        "icon": "🔥",
+        "options": [
+            { "text": "The Ash of Etna on the balconies", "correct": true },
+            { "text": "Someone who says Arancina instead of Arancino", "correct": true },
+            { "text": "Being Exchanged for a Palermitan", "correct": true },
+            { "text": "To be called Terrone", "correct": true }
+        ]
+    }
+]

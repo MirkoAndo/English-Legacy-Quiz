@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Hero - Online Safety</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app-container">
+    <div class="content-area">
+        <div id="home" class="screen active">
+            <span><img src="Banner.webp" style="width:100%;"> </span>
+            <h1>Marconi Quiz</h1>
+            <p>Learn something about us.</p>
+            <button class="btn" onclick="goTo('menu')">START</button>
+        </div>
+
+        <div id="menu" class="screen">
+            <h2>Main Menu</h2>
+            <button class="btn" onclick="goTo('learn')">📚 Learn (Rules)</button>
+            <button class="btn" onclick="goTo('quiz')">🎮 Start Quiz</button>
+            <button class="btn btn-secondary" onclick="goTo('home')">Back</button>
+        </div>
+
+        <div id="learn" class="screen">
+            <h2>Safety Rules</h2>
+            <div id="rules-container">
+                <div class="card">Never call a Sicilian "Terrone".</div>
+                <div class="card">Marconi is the best school in Catania (I wasn't forced to write it)</div>
+                <div class="card"><strong>You must say Arancino, not Arancina.</strong></div>
+            </div>
+            <button class="btn" onclick="goTo('menu')">Back to Menu</button>
+        </div>
+
+        <div id="quiz" class="screen">
+            <span id="q-icon" class="icon">🤔</span>
+            <h3 id="q-text">Loading question...</h3>
+            <div id="options-container"></div>
+            <p id="feedback-msg"></p>
+            <button class="btn" id="next-btn" style="display:none;" onclick="nextQuestion()">Next Question ➡️</button>
+        </div>
+
+        <div id="end" class="screen">
+            <span class="icon">🏆</span>
+            <h2>Quiz Completed!</h2>
+            <p>Your final score:</p>
+            <h1 id="final-score">0 / 0</h1>
+            <button class="btn" onclick="restartQuiz()">Play Again</button>
+            <button class="btn btn-secondary" onclick="goTo('home')">Home</button>
+        </div>
+    </div>
+
+    <footer>
+        ©Copyright (c) 2026 Mirko Andò Marconi-Mangano CT. <br> Licensed for Educational Non-Commercial use only.
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

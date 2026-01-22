@@ -4,9 +4,10 @@
         "icon": "🏫",
         "options": [
             { "text": "Marconi and Archimede", "correct": false },
-            { "text": "Marconi and Mangano", "correct": true },
             { "text": "Ferraris and Mangano", "correct": false },
-            { "text": "Pacinotti and Marconi", "correct": false }
+            { "text": "Pacinotti and Marconi", "correct": false },
+            { "text": "Marconi and Mangano", "correct": true }
+
         ]
     },
     {
@@ -14,8 +15,8 @@
         "icon": "📍",
         "options": [
             { "text": "Via Lattea", "correct": false },
-            { "text": "Via Vescovo Maurizio", "correct": true },
             { "text": "Via Giovanni 2041th", "correct": false },
+            { "text": "Via Vescovo Maurizio", "correct": true },
             { "text": "Piazza Poco Duomo", "correct": false }
         ]
     },
@@ -23,8 +24,8 @@
         "text": "Who is the sponsor of this program with which we communicate?",
         "icon": "🌍",
         "options": [
-            { "text": "Leonardo da Vinci Grants", "correct": false },
             { "text": "Erasmus+", "correct": true },
+            { "text": "Leonardo da Vinci Grants", "correct": false },
             { "text": "Fulbright Scholars", "correct": false },
             { "text": "Facebook", "correct": false }
         ]
@@ -54,10 +55,10 @@
         "text": "Which iconic Italian city is famous for its canals and gondolas? 🛶 \"Imagine commuting by boat to school—only in Italy!\"",
         "icon": "🌊",
         "options": [
-            { "text": "Venice", "correct": true },
             { "text": "Turin", "correct": false },
             { "text": "Bologna", "correct": false },
-            { "text": "Genova", "correct": false }
+            { "text": "Genova", "correct": false },
+            { "text": "Venice", "correct": true }
         ]
     },
     {

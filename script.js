@@ -57,6 +57,19 @@ function checkAnswer(btn, isCorrect) {
     } else {
         btn.classList.add('wrong');
         document.getElementById('feedback-msg').innerText = "Wrong answer ⚠️";
+        const opts = questions[currentQuestionIndex].options;
+        const btns = document.querySelectorAll('.btn-option');
+        const correctOpt = opts.find(o => o.correct);
+
+        btns.forEach((b, i) => {
+            if (opts[i] && opts[i].correct) {
+                b.classList.add('correct');
+            }
+        });
+
+        if (correctOpt) {
+            document.getElementById('feedback-msg').innerText += ` The right answer was: ${correctOpt.text}`;
+        }
         document.getElementById('feedback-msg').style.color = "#c0392b";
     }
     document.getElementById('next-btn').style.display = 'inline-block';

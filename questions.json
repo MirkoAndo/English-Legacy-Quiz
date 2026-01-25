@@ -11,16 +11,6 @@
         ]
     },
     {
-        "text": "Where is the main Marconi campus located? 🍦 ",
-        "icon": "📍",
-        "options": [
-            { "text": "Via Lattea", "correct": false },
-            { "text": "Via Giovanni 2041th", "correct": false },
-            { "text": "Via Vescovo Maurizio", "correct": true },
-            { "text": "Piazza Poco Duomo", "correct": false }
-        ]
-    },
-    {
         "text": "Who is the sponsor of this program with which we communicate?",
         "icon": "🌍",
         "options": [
@@ -32,17 +22,17 @@
     },
 
     {
-        "text": "What is the capital city of Italy? 😄 \"If you don't know the pasta army will come get you\"",
-        "icon": "🇮🇹",
+        "text": "What is the maximum grade you can get on a test in Italy? 📝 \"Don't expect an A+\"",
+        "icon": "💯",
         "options": [
-            { "text": "Milan", "correct": false },
-            { "text": "Rome", "correct": true },
-            { "text": "Naples", "correct": false },
-            { "text": "Florence", "correct": false }
+            { "text": "30 or summa cum laude", "correct": false },
+            { "text": "10", "correct": true },
+            { "text": "100", "correct": false },
+            { "text": "A++", "correct": false }
         ]
     },
     {
-        "text": "What is the highest volcano in Europe?  \"If you answer Vesuvio I'll send you a Napoletano at home\"",
+        "text": "What is the highest volcano in Europe?  \n\"If you answer Vesuvio I'll send you a Napoletano at home\"",
         "icon": "🏔️",
         "options": [
             { "text": "Alicudi", "correct": false },
@@ -52,23 +42,23 @@
         ]
     },
     {
-        "text": "Which iconic Italian city is famous for its canals and gondolas? 🛶 \"Imagine commuting by boat to school—only in Italy!\"",
-        "icon": "🌊",
+        "text": "What is the dreaded final exam at the end of high school called? 😱\"I'll do it next Year\"",
+        "icon": "🎓",
         "options": [
-            { "text": "Turin", "correct": false },
-            { "text": "Bologna", "correct": false },
-            { "text": "Genova", "correct": false },
-            { "text": "Venice", "correct": true }
+            { "text": "The Graduation", "correct": false },
+            { "text": "The Final Judgment", "correct": false },
+            { "text": "The Maturità", "correct": true },
+            { "text": "The Invalsi Test", "correct": false }
         ]
     },
     {
-        "text": "What is the oldest university in Italy, founded in 1088? 📚",
-        "icon": "🎓",
+        "text": "Which animal is the symbol of Catania found in Piazza Duomo? 🐘",
+        "icon": "🗿",
         "options": [
-            { "text": "University of Padua", "correct": false },
-            { "text": "University of Bologna", "correct": true },
-            { "text": "Sapienza University", "correct": false },
-            { "text": "University of Pisa", "correct": false }
+            { "text": "The She-Wolf🐺", "correct": false },
+            { "text": "The Lion🦁", "correct": false },
+            { "text": "The Elephant (U Liotru)🐘", "correct": true },
+            { "text": "The Eagle🦅", "correct": false }
         ]
     },
     {
